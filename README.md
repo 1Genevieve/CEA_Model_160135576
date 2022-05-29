@@ -1,0 +1,2 @@
+# CEA_Model_160135576
+A probabilistic cost-utility analysis of Glycoprotein IIB/IIIA antagonists in reducing the risk of myocardial infarction after a non-ST elevation acute coronary syndrome modified from a paper by Palmer et al. (2002): ‘A cost-effectiveness model comparing alternative management strategies for the use of glycoprotein IIb/IIIa antagonists in non-ST-elevation acute coronary syndrome’.
