@@ -33,14 +33,14 @@ Figure 2 shows the constructed Markov model. Once patients enter the long-term p
 ### Cost-effectiveness analysis
 The total costs, total QALYs and results of the incremental cost-effectiveness analysis are shown in Tables 5 to 7. These are deterministic values. Based on the incremental analysis in Table 6, Treatment A is more cost-effective than Treatment B. The ICER of Treatment A and the baseline strategy is £6,610 per QALY gained which is below the £20,000 per QALY threshold. The ICER of Treatment B and Treatment A, however, is £47,610/QALY.  The net monetary benefit (NMB) still shows that Treatment A is more cost-effective because it has a higher NMB of £583.
 
-
 ### Probabilistic Sensitivity analysis
 Results of the incremental analysis from the PSA showed that Treatment A would still be more cost-effective than the baseline strategy at an ICER of £6,618/QALY. The ICER of Treatment B and Treatment A is £40,021/QALY.
 
-Figure 3 shows the cost-effectiveness acceptability curve (CEAC) of Treatment A versus Treatment B. At a WTP threshold of £0-£6,000 per QALY, Treatment A has a 100% probability of being more cost-effective than Treatment B. The probability that Treatment A is more cost-effective decreases as the WTP threshold increases, while the probability for Treatment B increases. However, the probability of cost-effectiveness of Treatment A remained higher across the whole range of WTP thresholds.
+Below shows the cost-effectiveness acceptability curve (CEAC) of Treatment A versus Treatment B. At a WTP threshold of £0-£6,000 per QALY, Treatment A has a 100% probability of being more cost-effective than Treatment B. The probability that Treatment A is more cost-effective decreases as the WTP threshold increases, while the probability for Treatment B increases. However, the probability of cost-effectiveness of Treatment A remained higher across the whole range of WTP thresholds.
+![CEAC](https://github.com/1Genevieve/CEA_Model_160135576/blob/main/CEAC.png)
 
-Figure 4 shows the cost-effectiveness plane or scatter plot of random samples of incremental costs and incremental QALYs of Treatments A and B generated from the PSA. The mean ICER is plotted in red. Most of the scatter plots lie in the northeast quadrant; the costs and QALYs of Treatments A and B is higher than those of the baseline strategy. For Treatment A, all random ICER values are less than the WTP threshold of £20,000 per QALY. For Treatment B, some ICER values are above the WTP threshold.
-
+Below shows the cost-effectiveness plane or scatter plot of random samples of incremental costs and incremental QALYs of Treatments A and B generated from the PSA. The mean ICER is plotted in red. Most of the scatter plots lie in the northeast quadrant; the costs and QALYs of Treatments A and B is higher than those of the baseline strategy. For Treatment A, all random ICER values are less than the WTP threshold of £20,000 per QALY. For Treatment B, some ICER values are above the WTP threshold.
+![CE Plane](https://github.com/1Genevieve/CEA_Model_160135576/blob/main/CE%20Plane.png)
 
 3.5.	Expected Value of Perfect Information (EVPI)
 The EVPI is determined based on NMB of treatment. Compared to Treatment B, Treatment A is more cost-effective in 74% of 500 sampled values of costs and QALYs from the PSA with a mean incremental NMB of £684 compared to the mean incremental NMB of Treatment B of £682 using a WTP threshold of £20,000 per QALY. This results to an individual EVPI of £305, which reflects uncertainties in the estimates of cost-effectiveness (based on 500 random sampled values). The population EVPI was computed at £4,277,192.
