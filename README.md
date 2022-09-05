@@ -37,7 +37,7 @@ Below shows the constructed Markov model. Once patients enter the long-term peri
 
 ![long-term Markov model](https://github.com/1Genevieve/CEA_Model_160135576/blob/main/LT%20Markov.jpg)
 
-The health state transition probabilities are shown in Table 4. These transition probabilities are not time-dependent; they remain the same throughout the long-term period regardless of previous health states experienced. The associated costs of being in any of the said health states and were assumed to be the same as in the initial short-term, one-year period and held constant in the 50-year time horizon. The utility attached to each of the health states was also assumed to the same. No cost was attributed to death. Although patients can be at risk for other co-morbidities which may affect the health state transitions, this risk was not incorporated in the analysis.
+The health state transition probabilities are shown in Table 4. These transition probabilities are not time-dependent; they remain the same throughout the long-term period regardless of previous health states experienced. The associated costs of being in any of the said health states were assumed to be the same as in the initial short-term one-year period and held constant in the 50-year time horizon. The utility attached to each of the health states was also assumed to be the same. No cost was attributed to death. Although patients can be at risk for other co-morbidities that may affect the health state transitions, this risk was not incorporated in the analysis.
 
 
 ### Cost-effectiveness analysis
