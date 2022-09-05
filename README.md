@@ -11,6 +11,7 @@ Treatments A and B were compared to a baseline strategy in which patients underw
 A decision-analysis tree model was constructed to illustrate the pathways of three alternative treatment strategies: (1) baseline strategy or no adjunct treatment with GPIIB/IIIA inhibitors; (2) Treatment A; and (3) Treatment B, including the probability of experiencing any of the three treatment outcomes at the end of one year following treatment: non-fatal MI, ischemic heart disease (IHD) or death. To demonstrate the treatment effect of Treatments A and B, their relative risks were applied to the baseline probability of experiencing the said treatment outcomes. The model includes the costs of treatment and QALYs gained.
 
 Below illustrates the decision-analysis tree model at baseline, without adjunct treatment with GP IIB/IIIA inhibitors. In the acute phase following a NSTEMI, patients may undergo PCI, CABG or no revascularization procedure. Those who underwent PCI may or may not need a repeat revascularization, which can be another PCI or CABG. Those who did not undergo a revascularization procedure in the acute phase may have one, either a PCI or CABG, later at 6 months. After the necessary procedures have been performed, patients may die or survive. If they survive, they may have another non-fatal MI or remain in the IHD state. A proportion of patients did not undergo revascularization procedure in the acute phase with either PCI or CABG.
+
 ![Decision Tree](https://github.com/1Genevieve/CEA_Model_160135576/blob/main/Decision%20Tree.jpg)
 
 Source: Palmer et al. (2002)
