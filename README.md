@@ -61,12 +61,11 @@ The treatment pathways were constructed using (1) decision-analytic modelling fo
 Both the short-term decision analysis tree model and long-term Markov model faced a number of structural limitations. First, the competing risk of treatment complications and other co-morbidities; increasing risk of death as persons age; and probability of using GP II/IIIA inhibitors or of undergoing a revascularization procedure anytime during the long-term period were not incorporated in the analysis. The transition probabilities were assumed to remain constant throughout the long-term period. Second, this study only analyzed two additional treatment strategies. It may be possible that there could be more cost-effective interventions to prevent recurrence of non-fatal MI or to reduce the risk of death such as lifestyle-related population-based programmes. Third, the uncertainty surrounding the higher mean NMB of Treatment A compared to baseline strategy and Treatment B can be resolved by further research or collection of additional data. The population EVPI is the maximum amount that is worth spending to eliminate this uncertainty.
 
 
-
 ## REFERENCES
 Briggs A, Claxton K, Sculpher M. Decision Modelling for Health Economic Evaluation. Oxford University Press, Oxford, 2006.
 
 Palmer S, Sculpher M, Philips Z, Robinson M, Ginnelly L, Bakhai A et al. A cost-effectiveness model comparing alternative management strategies for the use of glycoprotein IIb/IIIa antagonists in non-ST-elevation acute coronary syndrome. NICE Appraisal Report 2002.
 
-Ward S, Jones M, Holmes M, Ara R, Ryan A, Yeo W and Payne N. A systematic review and economic evaluation of statins for the prevention of coronary events. Health Technology Assessment, 2007; 11(14).
-
 Sculpher M, Smith D, Clayton T, Henderson R, Buxton M, Pocock S, Chamberlain D. Coronary angioplasty versus medical therapy for angina. Health service costs based on the second Randomized Intervention Treatment of Angina (RITA-2) trial. Eur Heart J. 2002 Aug;23(16):1291-1300.
+
+Ward S, Jones M, Holmes M, Ara R, Ryan A, Yeo W and Payne N. A systematic review and economic evaluation of statins for the prevention of coronary events. Health Technology Assessment, 2007; 11(14).
