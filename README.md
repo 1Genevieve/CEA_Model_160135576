@@ -10,14 +10,9 @@ Treatments A and B were compared to a baseline strategy in which patients underw
 ### Decision Analytic Modelling
 A decision-analysis tree model was constructed to illustrate the pathways of three alternative treatment strategies: (1) baseline strategy or no adjunct treatment with GPIIB/IIIA inhibitors; (2) Treatment A; and (3) Treatment B, including the probability of experiencing any of the three treatment outcomes at the end of one year following treatment: non-fatal MI, ischemic heart disease (IHD) or death. To demonstrate the treatment effect of Treatments A and B, their relative risks were applied to the baseline probability of experiencing the said treatment outcomes. The model includes the costs of treatment and QALYs gained.
 
-Below illustrates the decision-analysis tree model at baseline, without adjunct treatment with GP IIB/IIIA inhibitors. In the acute phase following a NSTEMI, patients may undergo PCI, CABG or no revascularization procedure. Those who underwent PCI may or may not need a repeat revascularization, which can be another PCI or CABG. Those who did not undergo a revascularization procedure in the acute phase may have one, either a PCI or CABG, later at 6 months. After the necessary procedures have been performed, patients may die or survive. If they survive, they may have another non-fatal MI or remain in the IHD state. A proportion of patients did not undergo revascularization procedure in the acute phase with either PCI or CABG.
-
-![Decision Tree](https://github.com/1Genevieve/CEA_Model_160135576/blob/main/Decision%20Tree.jpg)
-
-Source: Palmer et al. (2002)
 ### Markov Modelling
 Those who survived at the end of the first year of treatment enter a long-term period of risk. Patients no longer took GP IIA/IIIB inhibitors nor underwent further revascularization procedures during this period. A Markov model was constructed to illustrate the long-term prognosis of these patients. The time horizon of the Markov model is 50 years. During this time, patients transition from one cycle of being in a certain health state to the next with each cycle covering a period of one year.  A half-cycle correction was applied to the state transitions, and a discount rate of 3.5% percent was applied to both costs and QALYs.
-![long-term Markov model](https://github.com/1Genevieve/CEA_Model_160135576/blob/main/LT%20Markov.jpg)
+
 ### Cost-Effectiveness Analysis
 The deterministic and probabilistic values of the total costs, total QALYs gained for each of the three treatment strategies, as well as net monetary benefit (NMB)  at the end of the 50-year horizon was computed. A full incremental analysis was performed to determine which of the three treatment strategies is cost-effective.
 
@@ -27,12 +22,22 @@ The individual and population Expected Value of Perfect Information (EVPI) was c
 
 ## RESULTS
 ### Decision-analytic modelling
+Below illustrates the decision-analysis tree model at baseline, without adjunct treatment with GP IIB/IIIA inhibitors. In the acute phase following a NSTEMI, patients may undergo PCI, CABG or no revascularization procedure. Those who underwent PCI may or may not need a repeat revascularization, which can be another PCI or CABG. Those who did not undergo a revascularization procedure in the acute phase may have one, either a PCI or CABG, later at 6 months. After the necessary procedures have been performed, patients may die or survive. If they survive, they may have another non-fatal MI or remain in the IHD state. A proportion of patients did not undergo revascularization procedure in the acute phase with either PCI or CABG.
+
+![Decision Tree](https://github.com/1Genevieve/CEA_Model_160135576/blob/main/Decision%20Tree.jpg)
+
+Source: Palmer et al. (2002)
+
 Table 1 shows the probabilities of receiving either PCI or CABG in the acute phase or later at six months, and the probabilities of ending in any of the treatment outcomes. Table 2 shows the cost of revascularization procedure, PCI, CABG and other resources; probabilities of resource use; length of hospital stay; and cost of care associated with being in any of the health states. Although there is a cost associated with dying, the cost was not considered to be a health care cost and was thus, excluded from the analysis. These costs were based from cost estimates in NHS hospitals in England and PRAIS-UK. Length of hospital stay data were taken from Nottingham Heart Attack Register. All costs were expressed in 2015/16 nominal values. A year of life was assumed to have a utility value of 0.8. 
 
 The relative risks of non-fatal MI and death with Treatments A and B compared to no treatment are shown in Table 3. Data on the effectiveness and cost-effectiveness of GPA IIB/IIIA inhibitors were derived from a rapid review of randomized controlled trials and published economic studies that were undertaken mostly outside the UK (Palmer et al. 2002). The treatment effects are assumed to cover a period of one year. While the baseline risks of ending in the aforementioned health states are specific to the UK population, the relative risks apply universally. These baseline risks were derived from the Prospective Registry of Acute Ischemic Syndromes in the UK (PRAIS-UK) and data on patients who had unstable angina and underwent acute PCI at a large UK cardiac centre in Leeds. Although patients receiving GP IIB/IIIA inhibitors are at risk of gastrointestinal bleeding complication, this was not included in the analysis.
 
 ### Markov modelling
-Figure 2 shows the constructed Markov model. Once patients enter the long-term period of risk, they may remain in the IHD state, experience another non-fatal MI, transition to a post-MI state or die. The health state transition probabilities are shown in Table 4. These transition probabilities are not time-dependent; they remain the same throughout the long-term period regardless of previous health states experienced. The associated costs of being in any of the said health states and were assumed to be the same as in the initial short-term, one-year period and held constant in the 50-year time horizon. The utility attached to each of the health states was also assumed to the same. No cost was attributed to death. Although patients can be at risk for other co-morbidities which may affect the health state transitions, this risk was not incorporated in the analysis.
+Below shows the constructed Markov model. Once patients enter the long-term period of risk, they may remain in the IHD state, experience another non-fatal MI, transition to a post-MI state or die. 
+
+![long-term Markov model](https://github.com/1Genevieve/CEA_Model_160135576/blob/main/LT%20Markov.jpg)
+
+The health state transition probabilities are shown in Table 4. These transition probabilities are not time-dependent; they remain the same throughout the long-term period regardless of previous health states experienced. The associated costs of being in any of the said health states and were assumed to be the same as in the initial short-term, one-year period and held constant in the 50-year time horizon. The utility attached to each of the health states was also assumed to the same. No cost was attributed to death. Although patients can be at risk for other co-morbidities which may affect the health state transitions, this risk was not incorporated in the analysis.
 
 
 ### Cost-effectiveness analysis
