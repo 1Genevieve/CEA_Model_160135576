@@ -21,7 +21,7 @@ Probabilistic values were obtained through probabilistic sensitivity analysis (P
 The individual and population Expected Value of Perfect Information (EVPI) was calculated assuming an incidence rate for treatment of 3,000 per annum at a time horizon of 5 years. A discount rate of 3.5% was applied to the EVPI. 
 
 ## RESULTS
-### Decision-analytic modelling
+### Decision Analytic Modelling
 Below illustrates the decision-analysis tree model at baseline, without adjunct treatment with GP IIB/IIIA inhibitors. In the acute phase following a NSTEMI, patients may undergo PCI, CABG or no revascularization procedure. Those who underwent PCI may or may not need a repeat revascularization, which can be another PCI or CABG. Those who did not undergo a revascularization procedure in the acute phase may have one, either a PCI or CABG, later at 6 months. After the necessary procedures have been performed, patients may die or survive. If they survive, they may have another non-fatal MI or remain in the IHD state. A proportion of patients did not undergo revascularization procedure in the acute phase with either PCI or CABG.
 
 ![Decision Tree](https://github.com/1Genevieve/CEA_Model_160135576/blob/main/Decision%20Tree.jpg)
@@ -32,17 +32,16 @@ Table 1 shows the probabilities of receiving either PCI or CABG in the acute pha
 
 The relative risks of non-fatal MI and death with Treatments A and B compared to no treatment are shown in Table 3. Data on the effectiveness and cost-effectiveness of GPA IIB/IIIA inhibitors were derived from a rapid review of randomized controlled trials and published economic studies that were undertaken mostly outside the UK (Palmer et al. 2002). The treatment effects are assumed to cover a period of one year. While the baseline risks of ending in the aforementioned health states are specific to the UK population, the relative risks apply universally. These baseline risks were derived from the Prospective Registry of Acute Ischemic Syndromes in the UK (PRAIS-UK) and data on patients who had unstable angina and underwent acute PCI at a large UK cardiac centre in Leeds. Although patients receiving GP IIB/IIIA inhibitors are at risk of gastrointestinal bleeding complication, this was not included in the analysis.
 
-### Markov modelling
+### Markov Modelling
 Below shows the constructed Markov model. Once patients enter the long-term period of risk, they may remain in the IHD state, experience another non-fatal MI, transition to a post-MI state or die. 
 
 ![long-term Markov model](https://github.com/1Genevieve/CEA_Model_160135576/blob/main/LT%20Markov.jpg)
 
 The health state transition probabilities are shown in Table 4. These transition probabilities are not time-dependent; they remain the same throughout the long-term period regardless of previous health states experienced. The associated costs of being in any of the said health states were assumed to be the same as in the initial short-term one-year period and held constant in the 50-year time horizon. The utility attached to each of the health states was also assumed to be the same. No cost was attributed to death. Although patients can be at risk for other co-morbidities that may affect the health state transitions, this risk was not incorporated in the analysis.
 
-### Cost-effectiveness analysis
+### Cost-Effectiveness Analysis
 The total costs, total QALYs and results of the incremental cost-effectiveness analysis are shown in Tables 5 to 7. These are deterministic values. Based on the incremental analysis in Table 6, Treatment A is more cost-effective than Treatment B. The ICER of Treatment A and the baseline strategy is £6,610 per QALY gained which is below the £20,000 per QALY threshold. The ICER of Treatment B and Treatment A, however, is £47,610/QALY.  The net monetary benefit (NMB) still shows that Treatment A is more cost-effective because it has a higher NMB of £583.
 
-### Probabilistic Sensitivity analysis
 Results of the incremental analysis from the PSA showed that Treatment A would still be more cost-effective than the baseline strategy at an ICER of £6,618/QALY. The ICER of Treatment B and Treatment A is £40,021/QALY.
 
 Below shows the cost-effectiveness acceptability curve (CEAC) of Treatment A versus Treatment B. At a WTP threshold of £0-£6,000 per QALY, Treatment A has a 100% probability of being more cost-effective than Treatment B. The probability that Treatment A is more cost-effective decreases as the WTP threshold increases, while the probability for Treatment B increases. However, the probability of cost-effectiveness of Treatment A remained higher across the whole range of WTP thresholds.
