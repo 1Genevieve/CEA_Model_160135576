@@ -39,7 +39,6 @@ Below shows the constructed Markov model. Once patients enter the long-term peri
 
 The health state transition probabilities are shown in Table 4. These transition probabilities are not time-dependent; they remain the same throughout the long-term period regardless of previous health states experienced. The associated costs of being in any of the said health states were assumed to be the same as in the initial short-term one-year period and held constant in the 50-year time horizon. The utility attached to each of the health states was also assumed to be the same. No cost was attributed to death. Although patients can be at risk for other co-morbidities that may affect the health state transitions, this risk was not incorporated in the analysis.
 
-
 ### Cost-effectiveness analysis
 The total costs, total QALYs and results of the incremental cost-effectiveness analysis are shown in Tables 5 to 7. These are deterministic values. Based on the incremental analysis in Table 6, Treatment A is more cost-effective than Treatment B. The ICER of Treatment A and the baseline strategy is £6,610 per QALY gained which is below the £20,000 per QALY threshold. The ICER of Treatment B and Treatment A, however, is £47,610/QALY.  The net monetary benefit (NMB) still shows that Treatment A is more cost-effective because it has a higher NMB of £583.
 
@@ -52,7 +51,7 @@ Below shows the cost-effectiveness acceptability curve (CEAC) of Treatment A ver
 Below shows the cost-effectiveness plane or scatter plot of random samples of incremental costs and incremental QALYs of Treatments A and B generated from the PSA. The mean ICER is plotted in red. Most of the scatter plots lie in the northeast quadrant; the costs and QALYs of Treatments A and B is higher than those of the baseline strategy. For Treatment A, all random ICER values are less than the WTP threshold of £20,000 per QALY. For Treatment B, some ICER values are above the WTP threshold.
 ![CE Plane](https://github.com/1Genevieve/CEA_Model_160135576/blob/main/CE%20Plane.png)
 
-3.5.	Expected Value of Perfect Information (EVPI)
+###Expected Value of Perfect Information (EVPI)
 The EVPI is determined based on NMB of treatment. Compared to Treatment B, Treatment A is more cost-effective in 74% of 500 sampled values of costs and QALYs from the PSA with a mean incremental NMB of £684 compared to the mean incremental NMB of Treatment B of £682 using a WTP threshold of £20,000 per QALY. This results to an individual EVPI of £305, which reflects uncertainties in the estimates of cost-effectiveness (based on 500 random sampled values). The population EVPI was computed at £4,277,192.
 
 ## DISCUSSION/CONCLUSION
