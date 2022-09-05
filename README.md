@@ -9,6 +9,9 @@ Treatments A and B were compared to a baseline strategy in which patients underw
 ## METHODS
 ### Decision Analytic Modelling
 A decision-analysis tree model was constructed to illustrate the pathways of three alternative treatment strategies: (1) baseline strategy or no adjunct treatment with GPIIB/IIIA inhibitors; (2) Treatment A; and (3) Treatment B, including the probability of experiencing any of the three treatment outcomes at the end of one year following treatment: non-fatal MI, ischemic heart disease (IHD) or death. To demonstrate the treatment effect of Treatments A and B, their relative risks were applied to the baseline probability of experiencing the said treatment outcomes. The model includes the costs of treatment and QALYs gained.
+![Decision Tree](https://github.com/1Genevieve/CEA_Model_160135576/blob/main/Decision%20Tree.jpg)
+
+Source: Palmer et al. (2002)
 ### Markov Modelling
 Those who survived at the end of the first year of treatment enter a long-term period of risk. Patients no longer took GP IIA/IIIB inhibitors nor underwent further revascularization procedures during this period. A Markov model was constructed to illustrate the long-term prognosis of these patients. The time horizon of the Markov model is 50 years. During this time, patients transition from one cycle of being in a certain health state to the next with each cycle covering a period of one year.  A half-cycle correction was applied to the state transitions, and a discount rate of 3.5% percent was applied to both costs and QALYs.
 ![long-term Markov model](https://github.com/1Genevieve/CEA_Model_160135576/blob/main/LT%20Markov.jpg)
@@ -22,10 +25,6 @@ The individual and population Expected Value of Perfect Information (EVPI) was c
 ## RESULTS
 ### Decision-analytic modelling
 Below illustrates the decision-analysis tree model at baseline, without adjunct treatment with GP IIB/IIIA inhibitors. In the acute phase following a NSTEMI, patients may undergo PCI, CABG or no revascularization procedure. Those who underwent PCI may or may not need a repeat revascularization, which can be another PCI or CABG. Those who did not undergo a revascularization procedure in the acute phase may have one, either a PCI or CABG, later at 6 months. After the necessary procedures have been performed, patients may die or survive. If they survive, they may have another non-fatal MI or remain in the IHD state. A proportion of patients did not undergo revascularization procedure in the acute phase with either PCI or CABG.
-
-![Decision Tree](https://github.com/1Genevieve/CEA_Model_160135576/blob/main/Decision%20Tree.jpg)
-
-Source: Palmer et al. (2002)
 
 Table 1 shows the probabilities of receiving either PCI or CABG in the acute phase or later at six months, and the probabilities of ending in any of the treatment outcomes. Table 2 shows the cost of revascularization procedure, PCI, CABG and other resources; probabilities of resource use; length of hospital stay; and cost of care associated with being in any of the health states. Although there is a cost associated with dying, the cost was not considered to be a health care cost and was thus, excluded from the analysis. These costs were based from cost estimates in NHS hospitals in England and PRAIS-UK. Length of hospital stay data were taken from Nottingham Heart Attack Register. All costs were expressed in 2015/16 nominal values. A year of life was assumed to have a utility value of 0.8. 
 
